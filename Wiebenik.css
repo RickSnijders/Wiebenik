@@ -1,0 +1,123 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+h1 {
+	background-color: #000000d1 ;
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	border-bottom: solid white 5px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+	margin-top: 50px;
+	margin-left: 200px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+	background-image: url("images/zonsondergangedit2.jpg");
+}
+
+p{
+	width: 1000px;
+	margin-left: 200px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+	width: 400px;
+	float: right;
+	border:solid  black 3px;
+	margin-right: 40px;
+	margin-top: 10px;
+}
+
+.hover:hover {
+	background-color: grey;
+}
+
+
+a.active {
+	background-color: grey;
+	color: black;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #1f1f1fe3 ;
+  overflow-x: hidden;
+  transition: 0.4s;
+  padding-top: 65px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#openknop {
+	position: fixed;
+	top: 0;
+	left: 10px;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
+	transition: 0.3s;
+}
+
+#volgende {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+}
+
+#vorige {
+	position: fixed;
+	bottom: 10px;
+	right: 100px;
+}
+
+#eerste {
+	position: fixed;
+	bottom: 10px;
+	right: 200px;
+}
+
+#laatste {
+	position: fixed;
+	bottom: 10px;
+	right: 100px;
+}
+
+#vorige , #eerste , #laatste , #volgende{
+	font-size: 80px;
+	cursor: pointer;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
